@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Open+Sans&family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box; 
+}
+
+body {
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif; 
+    color: #333; 
+    background-color: #f2f2f2; 
+}
+
+.titulo1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 3.5em;
+    margin-bottom: 0.5%;
+    background-color: #0288D1;
+    color: white;
+    padding: 1%; 
+}
+
+.sub2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 1%;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7.5%;
+}
+
+.leo {
+    display: block;
+    padding: 10px;
+    background-color: #ecf0f1; 
+    border: 1px solid #bdc3c7; 
+    border-radius: 5px;
+    text-align: center;
+    width: 22%;
+    align-content: center;
+    margin-top: 1%;
+    color: #2c3e50; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0.1px 0.1px black;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 250%;
+}
